@@ -1,0 +1,433 @@
+{
+  "queries": 22,
+  "recall@1": 0.9545,
+  "precision@1": 0.9545,
+  "recall@3": 1.0,
+  "precision@3": 0.7424,
+  "recall@5": 1.0,
+  "precision@5": 0.6591,
+  "mrr": 0.9773,
+  "hit_rate@5": 1.0,
+  "k": 5,
+  "chunker": "recursive",
+  "chunks_indexed": 30,
+  "details": [
+    {
+      "id": "q01",
+      "query": "What is retrieval-augmented generation and how does RAG work?",
+      "expected_doc": "rag_fundamentals",
+      "ranked_doc_ids": [
+        "rag_fundamentals",
+        "rag_fundamentals",
+        "rag_fundamentals",
+        "rag_fundamentals",
+        "api_and_serving"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q02",
+      "query": "Why does retrieval quality limit the quality of generated answers in RAG?",
+      "expected_doc": "rag_fundamentals",
+      "ranked_doc_ids": [
+        "rag_fundamentals",
+        "rag_fundamentals",
+        "api_and_serving",
+        "evaluation_metrics",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.6
+    },
+    {
+      "id": "q03",
+      "query": "What happens in the indexing phase and the query phase of a RAG system?",
+      "expected_doc": "rag_fundamentals",
+      "ranked_doc_ids": [
+        "rag_fundamentals",
+        "hallucination_control",
+        "hallucination_control",
+        "hallucination_control",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "recall@5": 1.0,
+      "precision@5": 0.4
+    },
+    {
+      "id": "q04",
+      "query": "How does grounding let users verify RAG answers against source documents?",
+      "expected_doc": "rag_fundamentals",
+      "ranked_doc_ids": [
+        "rag_fundamentals",
+        "rag_fundamentals",
+        "hallucination_control",
+        "hallucination_control",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.6
+    },
+    {
+      "id": "q05",
+      "query": "What is fixed-size chunking and why is overlap used between windows?",
+      "expected_doc": "chunking_strategies",
+      "ranked_doc_ids": [
+        "chunking_strategies",
+        "chunking_strategies",
+        "chunking_strategies",
+        "chunking_strategies",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q06",
+      "query": "How does recursive chunking choose where to split text?",
+      "expected_doc": "chunking_strategies",
+      "ranked_doc_ids": [
+        "chunking_strategies",
+        "chunking_strategies",
+        "rag_fundamentals",
+        "chunking_strategies",
+        "chunking_strategies"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q07",
+      "query": "What is semantic chunking and when does a new chunk begin?",
+      "expected_doc": "chunking_strategies",
+      "ranked_doc_ids": [
+        "chunking_strategies",
+        "chunking_strategies",
+        "hallucination_control",
+        "chunking_strategies",
+        "api_and_serving"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.6
+    },
+    {
+      "id": "q08",
+      "query": "Why should chunking strategies be compared empirically instead of chosen by intuition?",
+      "expected_doc": "chunking_strategies",
+      "ranked_doc_ids": [
+        "chunking_strategies",
+        "chunking_strategies",
+        "api_and_serving",
+        "chunking_strategies",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.6
+    },
+    {
+      "id": "q09",
+      "query": "How is recall at k defined for retrieval evaluation?",
+      "expected_doc": "evaluation_metrics",
+      "ranked_doc_ids": [
+        "api_and_serving",
+        "evaluation_metrics",
+        "evaluation_metrics",
+        "evaluation_metrics",
+        "evaluation_metrics"
+      ],
+      "reciprocal_rank": 0.5,
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q10",
+      "query": "What does mean reciprocal rank MRR measure?",
+      "expected_doc": "evaluation_metrics",
+      "ranked_doc_ids": [
+        "evaluation_metrics",
+        "embeddings_and_vector_search",
+        "api_and_serving",
+        "evaluation_metrics"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "recall@5": 1.0,
+      "precision@5": 0.5
+    },
+    {
+      "id": "q11",
+      "query": "What is a golden set in retrieval evaluation?",
+      "expected_doc": "evaluation_metrics",
+      "ranked_doc_ids": [
+        "evaluation_metrics",
+        "api_and_serving",
+        "chunking_strategies",
+        "hallucination_control",
+        "evaluation_metrics"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333,
+      "recall@5": 1.0,
+      "precision@5": 0.4
+    },
+    {
+      "id": "q12",
+      "query": "Why run retrieval evaluation as a regression check whenever the chunker changes?",
+      "expected_doc": "evaluation_metrics",
+      "ranked_doc_ids": [
+        "evaluation_metrics",
+        "api_and_serving",
+        "evaluation_metrics",
+        "rag_fundamentals",
+        "chunking_strategies"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.4
+    },
+    {
+      "id": "q13",
+      "query": "What is TF-IDF and how does inverse document frequency downweight common words?",
+      "expected_doc": "embeddings_and_vector_search",
+      "ranked_doc_ids": [
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "evaluation_metrics",
+        "embeddings_and_vector_search",
+        "api_and_serving"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.6
+    },
+    {
+      "id": "q14",
+      "query": "How does cosine similarity compare two text vectors?",
+      "expected_doc": "embeddings_and_vector_search",
+      "ranked_doc_ids": [
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "chunking_strategies"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q15",
+      "query": "What is metadata filtering in vector search and when should it be applied?",
+      "expected_doc": "embeddings_and_vector_search",
+      "ranked_doc_ids": [
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q16",
+      "query": "When do large vector collections use approximate nearest neighbour indexes?",
+      "expected_doc": "embeddings_and_vector_search",
+      "ranked_doc_ids": [
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "embeddings_and_vector_search",
+        "chunking_strategies"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q17",
+      "query": "What is hallucination in question answering and how does abstention control it?",
+      "expected_doc": "hallucination_control",
+      "ranked_doc_ids": [
+        "hallucination_control",
+        "hallucination_control",
+        "rag_fundamentals",
+        "hallucination_control",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.6
+    },
+    {
+      "id": "q18",
+      "query": "Why does extractive answering prevent a system from inventing facts?",
+      "expected_doc": "hallucination_control",
+      "ranked_doc_ids": [
+        "hallucination_control",
+        "hallucination_control",
+        "rag_fundamentals",
+        "rag_fundamentals",
+        "hallucination_control"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.6
+    },
+    {
+      "id": "q19",
+      "query": "How should confidence thresholds be tuned using unanswerable questions?",
+      "expected_doc": "hallucination_control",
+      "ranked_doc_ids": [
+        "hallucination_control",
+        "hallucination_control",
+        "api_and_serving",
+        "chunking_strategies",
+        "rag_fundamentals"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6667,
+      "recall@5": 1.0,
+      "precision@5": 0.4
+    },
+    {
+      "id": "q20",
+      "query": "What does the query endpoint return in the RAG API?",
+      "expected_doc": "api_and_serving",
+      "ranked_doc_ids": [
+        "api_and_serving",
+        "api_and_serving",
+        "api_and_serving",
+        "rag_fundamentals",
+        "api_and_serving"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q21",
+      "query": "Why expose evaluation as an API endpoint?",
+      "expected_doc": "api_and_serving",
+      "ranked_doc_ids": [
+        "api_and_serving",
+        "api_and_serving",
+        "api_and_serving",
+        "api_and_serving",
+        "evaluation_metrics"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 0.8
+    },
+    {
+      "id": "q22",
+      "query": "What does the health endpoint report about documents and chunks in the API?",
+      "expected_doc": "api_and_serving",
+      "ranked_doc_ids": [
+        "api_and_serving",
+        "api_and_serving",
+        "api_and_serving",
+        "api_and_serving",
+        "api_and_serving"
+      ],
+      "reciprocal_rank": 1.0,
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 1.0,
+      "recall@5": 1.0,
+      "precision@5": 1.0
+    }
+  ]
+}

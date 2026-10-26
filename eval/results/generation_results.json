@@ -1,0 +1,261 @@
+{
+  "chunker": "recursive",
+  "answerable_queries": 22,
+  "answered": 22,
+  "answer_rate": 1.0,
+  "citation_precision": 1.0,
+  "unanswerable_queries": 4,
+  "abstention_accuracy": 1.0,
+  "details": [
+    {
+      "id": "q01",
+      "outcome": "answered",
+      "expected_doc": "rag_fundamentals",
+      "cited_docs": [
+        "rag_fundamentals"
+      ],
+      "citation_hit": true,
+      "confidence": 0.328048
+    },
+    {
+      "id": "q02",
+      "outcome": "answered",
+      "expected_doc": "rag_fundamentals",
+      "cited_docs": [
+        "evaluation_metrics",
+        "rag_fundamentals"
+      ],
+      "citation_hit": true,
+      "confidence": 0.23758
+    },
+    {
+      "id": "q03",
+      "outcome": "answered",
+      "expected_doc": "rag_fundamentals",
+      "cited_docs": [
+        "rag_fundamentals"
+      ],
+      "citation_hit": true,
+      "confidence": 0.436925
+    },
+    {
+      "id": "q04",
+      "outcome": "answered",
+      "expected_doc": "rag_fundamentals",
+      "cited_docs": [
+        "rag_fundamentals"
+      ],
+      "citation_hit": true,
+      "confidence": 0.433881
+    },
+    {
+      "id": "q05",
+      "outcome": "answered",
+      "expected_doc": "chunking_strategies",
+      "cited_docs": [
+        "chunking_strategies"
+      ],
+      "citation_hit": true,
+      "confidence": 0.564625
+    },
+    {
+      "id": "q06",
+      "outcome": "answered",
+      "expected_doc": "chunking_strategies",
+      "cited_docs": [
+        "chunking_strategies"
+      ],
+      "citation_hit": true,
+      "confidence": 0.313843
+    },
+    {
+      "id": "q07",
+      "outcome": "answered",
+      "expected_doc": "chunking_strategies",
+      "cited_docs": [
+        "chunking_strategies"
+      ],
+      "citation_hit": true,
+      "confidence": 0.372363
+    },
+    {
+      "id": "q08",
+      "outcome": "answered",
+      "expected_doc": "chunking_strategies",
+      "cited_docs": [
+        "api_and_serving",
+        "chunking_strategies"
+      ],
+      "citation_hit": true,
+      "confidence": 0.532031
+    },
+    {
+      "id": "q09",
+      "outcome": "answered",
+      "expected_doc": "evaluation_metrics",
+      "cited_docs": [
+        "evaluation_metrics"
+      ],
+      "citation_hit": true,
+      "confidence": 0.204102
+    },
+    {
+      "id": "q10",
+      "outcome": "answered",
+      "expected_doc": "evaluation_metrics",
+      "cited_docs": [
+        "embeddings_and_vector_search",
+        "evaluation_metrics"
+      ],
+      "citation_hit": true,
+      "confidence": 0.493384
+    },
+    {
+      "id": "q11",
+      "outcome": "answered",
+      "expected_doc": "evaluation_metrics",
+      "cited_docs": [
+        "api_and_serving",
+        "evaluation_metrics"
+      ],
+      "citation_hit": true,
+      "confidence": 0.375447
+    },
+    {
+      "id": "q12",
+      "outcome": "answered",
+      "expected_doc": "evaluation_metrics",
+      "cited_docs": [
+        "api_and_serving",
+        "evaluation_metrics"
+      ],
+      "citation_hit": true,
+      "confidence": 0.584038
+    },
+    {
+      "id": "q13",
+      "outcome": "answered",
+      "expected_doc": "embeddings_and_vector_search",
+      "cited_docs": [
+        "embeddings_and_vector_search"
+      ],
+      "citation_hit": true,
+      "confidence": 0.564404
+    },
+    {
+      "id": "q14",
+      "outcome": "answered",
+      "expected_doc": "embeddings_and_vector_search",
+      "cited_docs": [
+        "embeddings_and_vector_search"
+      ],
+      "citation_hit": true,
+      "confidence": 0.465898
+    },
+    {
+      "id": "q15",
+      "outcome": "answered",
+      "expected_doc": "embeddings_and_vector_search",
+      "cited_docs": [
+        "embeddings_and_vector_search"
+      ],
+      "citation_hit": true,
+      "confidence": 0.540783
+    },
+    {
+      "id": "q16",
+      "outcome": "answered",
+      "expected_doc": "embeddings_and_vector_search",
+      "cited_docs": [
+        "embeddings_and_vector_search"
+      ],
+      "citation_hit": true,
+      "confidence": 0.784209
+    },
+    {
+      "id": "q17",
+      "outcome": "answered",
+      "expected_doc": "hallucination_control",
+      "cited_docs": [
+        "hallucination_control"
+      ],
+      "citation_hit": true,
+      "confidence": 0.331267
+    },
+    {
+      "id": "q18",
+      "outcome": "answered",
+      "expected_doc": "hallucination_control",
+      "cited_docs": [
+        "hallucination_control"
+      ],
+      "citation_hit": true,
+      "confidence": 0.242963
+    },
+    {
+      "id": "q19",
+      "outcome": "answered",
+      "expected_doc": "hallucination_control",
+      "cited_docs": [
+        "hallucination_control"
+      ],
+      "citation_hit": true,
+      "confidence": 0.629838
+    },
+    {
+      "id": "q20",
+      "outcome": "answered",
+      "expected_doc": "api_and_serving",
+      "cited_docs": [
+        "api_and_serving",
+        "rag_fundamentals"
+      ],
+      "citation_hit": true,
+      "confidence": 0.211197
+    },
+    {
+      "id": "q21",
+      "outcome": "answered",
+      "expected_doc": "api_and_serving",
+      "cited_docs": [
+        "api_and_serving"
+      ],
+      "citation_hit": true,
+      "confidence": 0.215932
+    },
+    {
+      "id": "q22",
+      "outcome": "answered",
+      "expected_doc": "api_and_serving",
+      "cited_docs": [
+        "api_and_serving"
+      ],
+      "citation_hit": true,
+      "confidence": 0.260957
+    },
+    {
+      "id": "q23",
+      "outcome": "abstained",
+      "expected": "abstain",
+      "confidence": 0.083352
+    },
+    {
+      "id": "q24",
+      "outcome": "abstained",
+      "expected": "abstain",
+      "confidence": 0.088622
+    },
+    {
+      "id": "q25",
+      "outcome": "abstained",
+      "expected": "abstain",
+      "confidence": 0.0
+    },
+    {
+      "id": "q26",
+      "outcome": "abstained",
+      "expected": "abstain",
+      "confidence": 0.078221
+    }
+  ]
+}
